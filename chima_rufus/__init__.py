@@ -1,1 +1,1 @@
-from chima_rufus.crawler import IntelligentWebCrawler
+from chima_rufus.agent import IntelligentAgent

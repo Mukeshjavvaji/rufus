@@ -26,7 +26,7 @@ crawler = IntelligentWebCrawler(url='https://example.com',
                                 log=False, 
                                 filename='output.json')
 
-# The crawler will start fetching data from the provided URL based on the prompt and outputs a JSON file
+# The crawler will start fetching data from the provided URL based on the prompt and save the fetched info in a JSON file.
 ```
 
 ## Parameters

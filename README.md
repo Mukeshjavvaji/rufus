@@ -17,4 +17,20 @@ pip install chima_rufus
 ```
 
 ## Usage
+```bash
+from chima_rufus import IntelligentWebCrawler
 
+# Initialize the crawler
+crawler = IntelligentWebCrawler(url='https://example.com', 
+                                prompt='Find information about machine learning', 
+                                log=False, 
+                                filename='output.json')
+
+# The crawler will start fetching data from the provided URL based on the prompt and outputs a JSON file
+```
+
+## Parameters
+- **URL**: The URL of the website to crawl
+- **prompt**: A text prompt that specifies the information to fetch
+- **log**: (Optional, Default=False) Set True to enable logging
+- **filename**: (Optional, Default='output.json') Set custom output filename

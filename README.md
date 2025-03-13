@@ -24,7 +24,7 @@ from chima_rufus import IntelligentWebCrawler
 crawler = IntelligentWebCrawler(url='https://example.com', 
                                 prompt='Find information about machine learning', 
                                 log=False, 
-                                filename='output.json')
+                                output='output.json')
 
 # The crawler will start fetching data from the provided URL based on the prompt and save the fetched info in a JSON file.
 ```
@@ -33,4 +33,4 @@ crawler = IntelligentWebCrawler(url='https://example.com',
 - **URL**: The URL of the website to crawl
 - **prompt**: A text prompt that specifies the information to fetch
 - **log**: (Optional, Default=False) Set True to enable logging
-- **filename**: (Optional, Default='output.json') Set custom output filename
+- **output**: (Optional, Default='output.json') Set custom output filename
